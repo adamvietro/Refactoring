@@ -1,0 +1,84 @@
+Chapter 1 Start from Scratch (1)
+    Start with a Feature
+        You don't want to start with the UI you want to start with a feature.
+        Even starting to build a flight searching you will need:
+            A field for the departure city
+            A field for the destination city
+            A field for the departure date
+            A field for the return date
+            A button to perform the search
+
+        Shoot you might not even need anything else.
+
+    Detail Comes Later
+        Don't get caught up on the small details typefaces etc. If you get caught up in the small stuff get away from the site and use paper and pen.
+
+        Hold the Color
+            Don't even worry about color right off the bat that can wait too. Using greyscale you force yourself to figure out the spacing and contrast. 
+
+        Don't Over-Invest
+
+    Don't Design too Much
+        Try to figure out a feature and then work on the implementation if you do that you will not get caught in the weeds about how everything works and will not need to worry about edge cases off the bat.
+
+        Work in Cycles
+            First design then make it real. Work on it till there is no more bugs then work on the next feature, Repeat.
+
+            Design -> Code
+        
+        Be a Pessimist
+            Remember that you can add thing in small amounts so that you don't get caught in the weeds about a new feature. A comment section without files is better then one that doesn't exist yet. So make sure that you can start off with the smallest version of the feature that can ship and build from there.
+    
+    Choose A Personality
+        Try to give each site a personality that way a banking website can feel safe and secure and a gaming site can feel fun and inviting.
+        
+        Font Choice
+            Elegant: serif
+            Playful: sans serif
+            Plain: neutral sans serif
+
+        Color
+            Blue: safe
+            Gold: expensive
+            Pink: fun
+
+        Border Radius
+            Small: neutral
+            Large: more playful
+            None: very serious
+
+        Language
+            Less personal: more serious
+            Friendlier: more casual
+
+        Deciding What you Actually want
+            If you can't figure out what you want you should try to look at other sites that you want to replicate and sites of the people you want to reach.
+
+    Limit Your Choices
+        A lot of choices might feel like a good thing but in the end they will paralyze you. Try to focus on the things that matter. That is why you want to start with greyscale and go from there. A small change is easier than a larger one.
+
+        Define Systems in Advance
+            IF you can you want to set a small amount of blues and other colors to choose from. Same goes for font size pick your favorite 5-10 and then change if you have an issue with one of them.
+
+        Designing by Process of Elimination
+            First figure out an idea for the best size or color of a design then try the slightly larger and smaller (or darker and lighter) if they look better then change if they are not as good reject the change. IF you end up changing then repeat the steps for the new size/color.
+
+        Systematize Everything
+            Going off the above you should have systems for:
+                • Font size
+                • Font weight
+                • Line height
+                • Color
+                • Margin
+                • Padding
+                • Width
+                • Height
+                • Box shadows
+                • Border radius
+                • Border width
+                • Opacity
+
+            That way you will optimize the selection and not find yourself stuck in the weeds about a small design choice.
+
+Chapter 2 Hierarchy is Everything (35)
+    
