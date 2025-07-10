@@ -81,4 +81,76 @@ Chapter 1 Start from Scratch (1)
             That way you will optimize the selection and not find yourself stuck in the weeds about a small design choice.
 
 Chapter 2 Hierarchy is Everything (35)
-    
+    Not All Elements are Equal
+        Visual Hierarchy refers to how important the elements in an interface appear. You don't want to have too many elements competing for your attention try to make the most important pieces the most visually striking.
+
+        You can do a lot with a little making an element more striking can be down by simply making others less striking.
+
+    Size isn't Everything
+        Font weight can do a lot here, as you can leave the size almost the same and then make the font weigh more to compensate. Add to that you can use a less bold or softer color to achieve some of the same results.
+
+        Try to stick to two or three colors:
+            • A dark color for primary content (like the headline of an article)
+            • A grey for secondary content (like the date an article was published)
+            • A lighter grey for tertiary content (maybe the copyright notice in a footer)
+        Similarly, two font weights are usually enough for UI work:
+            • A normal font weight (400 or 500 depending on the font) for most text
+            • A heavier font weight (600 or 700) for text you want to emphasize
+
+        Also try to stay away from font weights that are less than 400 as it will make the words too hard to read.
+
+    Don't use Grey Text on Colored Backgrounds
+        This will only reduce the contrast. This will only work for white Backgrounds. What you are trying to do is make the text blend in and if you use a grey on color backgrounds you are in a sense making it stand out.
+
+        You might think that using some opacity might do what you want there but it will show the background and that is not what you want.
+
+    Emphasize by De-Emphasizing
+        So for the example of the current page (from the top bar) being the active and a different color when on the page. instead of trying to make the color pop even more you can just make the others pop less.
+
+        This even works for things that you might feel need an entire box or background you might just be able to get away with just letting the less important info sit right on the page.
+
+    Labels are a Last Resort
+        When presenting data you might feel the need to label more than needed. This can make the page more cluttered and less helpful. 
+
+        You Might Not Need a Label at All
+            YOu should be able to tell a phone number or an email apart. You should know that "Customer Support" is their job title.
+
+        Combine Labels and Values
+            There is a difference between:
+                In stock: 12
+                **12** left in stock
+
+            They both tell the same info but one conveys more about it and give a sense of urgency. You might find that you want to put everything with a semicolon but "3 bedrooms" looks better.
+
+        Labels are Secondary
+            When you need a label mostly when you have a bunch of numbers that can mean different things you should make the label secondary.
+
+        When to Emphasize a Label
+            There might be times that the label is the more important thing. When you are trying to build a spec sheet the dimensions can be an item that a person will look for.
+
+    Separate Visual Hierarchy from Document Hierarchy.
+        When building a site h1, h2, h3 will be used to add in a heading for a part of the site. The higher the number the less important or font sizes you should be using. You can have more than 1 heading for a section of a site but you should reduce the size with each addition and then try to make the most important the first things people will see.
+
+        Content should be the star not the label for the page itself.
+
+    Balance Weight and Contrast
+        The reason that bold feels emphasized is that it uses more pixels in the same space.
+
+        Using Contrast to Compensate for Weight
+            You will find as a corollary of the previous section is that icons will feel more bold than any text next to them you should then think about making the icons less bold by making the color not stand out as much as the text.
+
+        Using Weight to Compensate for Contrast
+            This can be used for the border of a cell as well you want to be sure that people will see the difference between entries but you don't want to draw attention to the border itself.
+
+    Semantics are Secondary
+        When designing these actions, it’s important to communicate their place in the hierarchy.
+            • Primary actions should be obvious. Solid, high contrast background colors work great here.
+            • Secondary actions should be clear but not prominent. Outline styles or lower contrast background colors are great options.
+            • Tertiary actions should be discoverable but unobtrusive. Styling these actions like links is usually the best approach.
+
+        Using the example you should be most drawn to publishing an add then edit then last the delete as that should be your last course of action. Most of the time you should focus on 2 different things and then have a tertiary action that blends into the background.
+
+        Destructive Actions
+            Red can mean a destructive action but if its not hte primary action for a page it shouldn't even have color. Think about this when building a page. However if you get to the point where you aer about to delete something the confirmation SHOULD have some weight to it.
+
+Chapter 3 Layout and Spacing (65)
