@@ -1,0 +1,31 @@
+Size
+    4px
+    8px
+    12px
+    16px
+    24px
+    32px
+    48px
+    64px
+    96px
+    128px
+    192px
+    256px
+    384px
+    512px
+    640px
+    768px
+
+Color
+
+Font Weights
+    Normal: font-weight: 400;
+            font-weight: 500;
+
+    heavier:font-weight: 600;
+            font-weight: 700;
+
+Hierarchy
+    Primary:    dark
+    secondary:  grey
+    tertiary:   lighter grey

@@ -154,3 +154,8 @@ Chapter 2 Hierarchy is Everything (35)
             Red can mean a destructive action but if its not hte primary action for a page it shouldn't even have color. Think about this when building a page. However if you get to the point where you aer about to delete something the confirmation SHOULD have some weight to it.
 
 Chapter 3 Layout and Spacing (65)
+    Start with too Much White Space
+        So for most cases the best way to start is to give everything too much white space.
+
+        White Space Should be Removed not Added
+            Add a little margin or padding to each element. Then you can remove or reduce the padding or margin if you don't like how it looks.
