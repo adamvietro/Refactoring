@@ -1,3 +1,15 @@
+Unit	            Description	                                            Example
+px	                Absolute pixels (fixed size)	                        width: 128px;
+rem	                Relative to root font size	                            width: 8rem;
+em	                Relative to current element’s font size	                width: 8em;
+%	                Relative to parent element’s width	                    width: 50%;
+vw	                % of viewport width (100vw = full width of window)	    width: 50vw;
+vh	                % of viewport height	                                height: 60vh;
+auto	            Automatically determined by content or context	        width: auto;
+max/min-content     Size based on content length	                        width: max-content;
+fit-content	        Shrinks to fit but not exceed available space	        width: fit-content;
+ch	                Relative to width of the 0 character in current font	width: 20ch;
+
 Size
     4px
     8px
@@ -19,13 +31,189 @@ Size
 Color
 
 Font Weights
-    Normal: font-weight: 400;
-            font-weight: 500;
-
-    heavier:font-weight: 600;
-            font-weight: 700;
+    font-weight: 100;   class="font-thin"
+    font-weight: 200;   class="font-extralight"
+    font-weight: 300;   class="font-light"
+    font-weight: 400;   class="font-normal"
+    font-weight: 500;   class="font-medium"
+    font-weight: 600;   class="font-semibold"
+    font-weight: 700;   class="font-bold"
+    font-weight: 800;   class="font-extrabold"
+    font-weight: 900;   class="font-black"
 
 Hierarchy
     Primary:    dark
     secondary:  grey
     tertiary:   lighter grey
+
+px for precise, rem for relative, integer for scaling.
+Font Size
+	font-size: 12px;   class="text-xs"
+	font-size: 14px;   class="text-sm"
+	font-size: 16px;   class="text-base"
+	font-size: 18px;   class="text-md"
+	font-size: 20px;   class="text-lg"
+	font-size: 24px;   class="text-xl"
+	font-size: 30px;   class="text-2xl"
+	font-size: 36px;   class="text-3xl"
+	font-size: 48px;   class="text-4xl"
+	font-size: 60px;   class="text-5xl"
+ 
+Unit-less values will scale off the size of the text.
+Line Height
+	line-height: 1;       class="leading-none"
+	line-height: 1.125;   class="leading-tight"
+	line-height: 1.25;    class="leading-snug"
+	line-height: 1.375;   class="leading-normal"
+	line-height: 1.5;     class="leading-relaxed"
+	line-height: 1.625;   class="leading-loose"
+	line-height: 2;       class="leading-looser"
+
+
+Margin can take up to 4 values, one applies to all values, 2 applies to top/bottom, 3 top/sides/bottom, 4 top/right/left/bottom
+px fixed lengths, % percentages, em/rem relative to font, auto.
+Margin 
+	margin: 4px;    class="m-1"
+	margin: 8px;    class="m-2"
+	margin: 12px;   class="m-3"
+	margin: 16px;   class="m-4"
+	margin: 20px;   class="m-5"
+	margin: 24px;   class="m-6"
+	margin: 32px;   class="m-8"
+	margin: 40px;   class="m-10"
+	margin: 48px;   class="m-12"
+	margin: 64px;   class="m-16"
+
+Padding can take up to 4 values, one applies to all values, 2 applies to top/bottom, 3 top/sides/bottom, 4 top/right/left/bottom
+px fixed lengths, % percentages, em/rem relative to font, auto.
+Padding
+	padding: 4px;    class="p-1"
+	padding: 8px;    class="p-2"
+	padding: 12px;   class="p-3"
+	padding: 16px;   class="p-4"
+	padding: 20px;   class="p-5"
+	padding: 24px;   class="p-6"
+	padding: 32px;   class="p-8"
+	padding: 40px;   class="p-10"
+	padding: 48px;   class="p-12"
+	padding: 64px;   class="p-16"
+
+Width
+	width: 64px;    class="w-16"
+	width: 96px;    class="w-24"
+	width: 128px;   class="w-32"
+	width: 160px;   class="w-40"
+	width: 192px;   class="w-48"
+	width: 224px;   class="w-56"
+	width: 256px;   class="w-64"
+	width: 320px;   class="w-80"
+	width: 384px;   class="w-96"
+	width: 448px;   class="w-[28rem]"
+
+Height
+	height: 64px;    class="h-16"
+	height: 96px;    class="h-24"
+	height: 128px;   class="h-32"
+	height: 160px;   class="h-40"
+	height: 192px;   class="h-48"
+	height: 224px;   class="h-56"
+	height: 256px;   class="h-64"
+	height: 320px;   class="h-80"
+	height: 384px;   class="h-96"
+	height: 448px;   class="h-[28rem]"
+
+Box-shadow can takes 4 values, offset-x, offset-y, blur-radius, color
+spread-radius, takes 5 values and they follow top/right/left/bottom/color
+inset, will put the shadow inside the element
+Box Shadows
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);    class="shadow-xs"
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);     class="shadow-sm"
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);     class="shadow"
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);     class="shadow-md"
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);    class="shadow-lg"
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.1);    class="shadow-xl"
+    box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.12);  class="shadow-2xl"
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.12);  class="shadow-3xl"
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.14);  class="shadow-4xl"
+    box-shadow: 0px 24px 36px rgba(0, 0, 0, 0.16);  class="shadow-5xl"
+
+can take up to 4 values, one applies to all values, 2 applies to top/bottom, 3 top/sides/bottom, 4 top/right/left/bottom
+Border Radius
+	border-radius: 0px;     class="rounded-none"
+	border-radius: 2px;     class="rounded-sm"
+	border-radius: 4px;     class="rounded"
+	border-radius: 6px;     class="rounded-md"
+	border-radius: 8px;     class="rounded-lg"
+	border-radius: 12px;    class="rounded-xl"
+	border-radius: 16px;    class="rounded-2xl"
+	border-radius: 24px;    class="rounded-3xl"
+	border-radius: 9999px;  class="rounded-full"
+
+They can be set individually with:
+    border-top-width
+    border-right-width
+    border-bottom-width
+    border-left-width
+Border Width
+	border-width: 0px;    class="border-0"
+	border-width: 1px;    class="border"
+	border-width: 2px;    class="border-2"
+	border-width: 4px;    class="border-4"
+	border-width: 8px;    class="border-8"
+
+For background Opacity think about rgba() colors instead
+Opacity
+	opacity: 0;     class="opacity-0"
+	opacity: 0.1;   class="opacity-10"
+	opacity: 0.25;  class="opacity-25"
+	opacity: 0.5;   class="opacity-50"
+	opacity: 0.75;  class="opacity-75"
+	opacity: 0.9;   class="opacity-90"
+	opacity: 1;     class="opacity-100"
+
+Think about setting a height or width and then using auto for the other.
+Icon Size
+	width: 12px;    class="w-3"
+	height: 12px;   class="h-3"
+	width: 16px;    class="w-4"
+	height: 16px;   class="h-4"
+	width: 20px;    class="w-5"
+	height: 20px;   class="h-5"
+	width: 24px;    class="w-6"
+	height: 24px;   class="h-6"
+	width: 28px;    class="w-7"
+	height: 28px;   class="h-7"
+	width: 32px;    class="w-8"
+	height: 32px;   class="h-8"
+
+Here are some other Attributes to think of
+Line Height
+Controls readability and vertical rhythm in text.
+(We covered this already, but worth emphasizing.)
+
+Letter Spacing (Tracking)
+Slight tweaks improve typography, especially for headings or small text.
+
+Z-Index
+A scale helps avoid stacking conflicts and keeps layering intentional.
+
+Transition Durations & Timing
+E.g., 150ms, 300ms, 500ms — consistent animation speeds improve UX.
+
+Grid / Flexbox Gap (Row Gap & Column Gap)
+Controls spacing between grid/flex items — better than margin hacks.
+
+Max-Width / Min-Width / Max-Height / Min-Height
+Useful for responsive layouts to constrain elements.
+
+Border Color / Background Color Palette
+Having a fixed palette makes colors consistent and easy to swap.
+
+Text Transform
+uppercase, lowercase, capitalize — consistent text styling.
+
+Cursor Styles
+Useful for interactive elements (pointer, default, not-allowed).
+
+Box-Sizing
+Usually border-box, but good to confirm in your system.
