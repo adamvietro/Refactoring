@@ -159,3 +159,42 @@ Chapter 3 Layout and Spacing (65)
 
         White Space Should be Removed not Added
             Add a little margin or padding to each element. Then you can remove or reduce the padding or margin if you don't like how it looks.
+
+        Dense UIs have Their Place
+            If you find that you are trying to build a dashboard where you want a lot of info in a small space you will want to have the margins gone or little as you want to be able to see everything all on the same page.
+
+    Establish a Spacing Sizing System
+        As with the other systems try and pick a few sizes and go from there. You shouldn't feel the need to over-analyze everything you are working on. 
+
+        A Linear Scale Won't Work
+            It is more about relative size than absolute values of items. 500 to 520 is about 4% but 12 to 16 is 33%. With this said any 2 size differences should be more than 25% or it will get lost.
+
+        Defining Your System
+            16px is a great starting place and from there you should work on building values that you can change to from there. Lower values should be packed together and larger should be further apart. Logarithmic is a good way to do this or just increase by 25% or more from each step.
+        
+        Using the System
+            Once you have your system start to use it. Need more spacing grab a value and pop it in. 
+
+    You Don't Have to Fill the Whole Screen
+        Just because you have the space doesn't mean you have to fill it. Try to leave some space so that the user doesn't have to scan the entire screen to see everything. ~1200-1400px is a normal screen size now a days on a PC.
+
+        Shrink the Canvas
+            It might be best to start with the mobile version and scale from there. Most people will first view your page on a mobile device. ~400px is a good start.
+
+        Thinking of Columns
+            Try to start off with the idea of columns in your page. That way you can do more with less.
+
+        Don't Force it
+            Just like you shouldn’t worry about filling the whole screen, you shouldn’t try to cram everything into a small area unnecessarily either.
+            If you need a lot of space, go for it! Just don’t feel obligated to fill it if you don’t have to.
+
+    Grids are Overrated
+        Grids can help you layout a dense or many option layout but they shouldn't always be used. 
+
+        Not all Elements Should Be Fluid
+            Some elements need to have a fixed width or height to best be used in a system. In the idea of a 12-column layout a side-bar will have 3 and the main will have 9 but if you flip the screen the side-bar will be too big or the other way it will be too small. Sometimes you should use absolute values to keep it consistent between screen sizes.
+
+        Don't Shrink and Element Until you Need to
+            Start off with the perfect size for the element and only shrink it when the screen size is less than the needed size. That way it will look go unless you have a smaller screen.
+
+    Relative Sizing Doesn't Scale (92)
