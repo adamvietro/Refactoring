@@ -198,3 +198,18 @@ Chapter 3 Layout and Spacing (65)
             Start off with the perfect size for the element and only shrink it when the screen size is less than the needed size. That way it will look go unless you have a smaller screen.
 
     Relative Sizing Doesn't Scale (92)
+        You might be fooled into thinking that every part of a web page should be scaled to match the current font or page size. That is not however the bet case for every instance. If you base the size of the headline off the text and optimize the text for any screen size the headline could become to large or small. 
+
+        As a general rule the larger the size of an element on a large screen needs to be shrunk by a larger amount on a smaller screen. 
+
+        Relationships withing Elements
+            Not everything even within an element needs to scale at the same rate. If you want a larger button padding can scale at a different rate than than the text size. 
+    
+    Avoid Ambiguous Spacing
+        Borders will help to differentiate between items but if you don't want a border make sure that the spacing fits to differentiate the elements. Like a 20px between inputs and 10px between the title and the box. 
+
+        DIfferences between the lines spacing of lines in a single bullet point and the spacing for the bullet points themselves.
+
+        DIfferences between and icon and the associated info and an other icon.
+
+Chapter 4 Designing Text (101)

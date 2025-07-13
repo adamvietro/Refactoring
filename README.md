@@ -10,4 +10,13 @@ This chapter is all about what is the most important on a page. When you are bui
   
 As you are building headings keep in mind that most of the time they are simply a label and they shouldn't take away from the needed info.  
   
-Always try to have the idea that you should have 3 categories for buttons or any actions on a page. Primary (most emphasis), secondary (little emphasis), tertiary (little to no emphasis). This way you will draw a person the most important parts of a page. Keep in mind that while this should be held to once you start the process for an action any confirmations should become the primary and thus be emphasized. 
+Always try to have the idea that you should have 3 categories for buttons or any actions on a page. Primary (most emphasis), secondary (little emphasis), tertiary (little to no emphasis). This way you will draw a person the most important parts of a page. Keep in mind that while this should be held to once you start the process for an action any confirmations should become the primary and thus be emphasized.
+  
+**Chapter 3: Layout and Spacing**  
+This chapter is all about making the right things have the right size. If you want to make something stand out use a large size of do it. However you might be better off giving a site lots of space and then scaling those elements down to fit what you are looking for.  
+  
+Also if you are thinking that relative sizing is the way to go you might not have the best plan. Thinking about larger and smaller elements within the page will need to be scaled to a greater or lesser degree depending on the initial size. A title that is 24px will need to be scaled faster than an 14px text. This is because the element will still too large on a smaller screen if not scaled correctly.  
+  
+Lastly thinking about the page as a whole you will need to have the right spacing to keep items separated. You should have a different spacing for the lines in a bullet point than the space between each bullet point. You should have the space between the title of a text box less than the space between each title and text box that you have on your page.  
+  
+**Chapter 4: Designing Text**  
