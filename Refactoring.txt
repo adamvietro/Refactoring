@@ -213,3 +213,89 @@ Chapter 3 Layout and Spacing (65)
         DIfferences between and icon and the associated info and an other icon.
 
 Chapter 4 Designing Text (101)
+    Establish a Type Scale
+        Many websites will use almost every text size from 12px to 24px on the site somewhere this might feel like a good idea but in the end you are making a lot more work for little to no help.
+
+        Choosing a Scale
+            Make sure that you are not just trying for a linear scale when it comes to what font size to choose from. Especially when going from a large screen to a small screen
+
+        Modular Scales
+            Here are a few scales to look at:
+                4:5 "Major third"
+                2:3 "Perfect fifth"
+                1:16.18 "Golden Ratio"
+            You will use these rations at every step of the process so that you will start with 16px (a great starting point) then apply that ratio at every step.
+
+            This might work for a lot of cases but it might give you weird steps that aren't integers and you will need more sizes at some point.
+
+        Hand-Crafted Scales
+            This is the system that we talked about earlier, this way you will have some values that are ready to go and will be able to build from there.
+
+        Avoid em Units
+            This is based off the current font size and when you are nesting elements you are now computing the em based off the size of the container.
+    
+    Use Good Fonts
+        Picking the right font can be very important
+
+        Play it Safe
+            -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+
+        Ignore Typefaces with less than Five Weight
+            This isn't always a set rule but most of the time you will find that fonts with less than 5 weights built-in will have less time and energy put into them. YOu can search on google by number of styles. Keep in mind that bold and italics also count as styles so you might want to search based off of styles > 10.
+
+        Optimize for Legibility
+            Titles will want a lower x-height meaning that they will have smaller lowercase letters where in most of the text on the main body of the page will want higher x-height so that the eye can traverse the page without much eye movement.
+
+        Trust the Wisdom of the Crowd
+            You can also just search by popularity
+
+        Steal From People that Care
+            Look at your favorite sites and use their fonts.
+
+        Developing Your Intuition
+            Once you start to look at these things you will develop your own style and way of noticing what matters.
+
+    Keep Your Line Length in Check
+        You might just start off with the text line length set to something that fits and move on but if you want the best reading experience you want to set it to the length that you can read most easily. The best seems to be 45-75 characters in length, or a width of 20-35em.
+
+        Dealing with Content
+            Even when dealing with mixed media you should still want to limit the size of the readable text. The icons and media can go outside but you still want the reading experience to be the most legible.
+
+    Baseline, not Center
+        Baseline is the imaginary line that the text rests on. In this way you are making the font center around the center of mass and it will look better when you have more than 1 style or size of the font.
+    
+    Line-height is Proportional
+        A line-height of 1.5 times the font size is a great place to start but there might be time where it doesn't work as well as you want.
+
+        Accounting for Line Length
+            We add space between a line so that when you eye goes to the front of the next line you will not get mixed up about where to start the next line, if you ever lost your place trying to find the next line it is because of the line-height.
+
+            The smaller the text the larger you will need the line-height to be. As with a larger text you will be able to follow the text or the space to the next line.
+
+    Not Every Link Needs a Color
+        You want to make sure that the links pop while in a sea of text but if every thing on the page is a link you shouldn't try and make them a different color as it will distract from the overall look of the page.
+
+        I might be beneficial to only make the links that will take a user on a normal path pop. If you want to denote a link still you can think about only changing the style or color or underline on hover.
+
+    Align with Readability in Mind
+        You should in a vast majority of the time align the text in the manner in which the reader will read the text. For most of the time you should align-left if you are writing in English
+
+        Don't Center Long Form Text
+            This goes with the line above but you want to have anything a person will read over a longer period of time be left centered as the eye will be able to read it more easily.
+
+        Right Align numbers
+            If you right align numbers and include the same decimal or trailing info you will have the larger numbers be larger than the smaller numbers and be more easily read.
+
+        Hyphenate Justified Text
+            This is simply any aligned text should have hyphens: auto; that way it will look better when you need to move on to a new line.
+    
+    Use Letter-Spacing Effectively
+        See the systems.txt but the spacing of the letters can make a huge difference.
+
+        Tightening Headlines
+            There are fonts that naturally will have more open spacing for the letters as they are meant to be read at a smaller size. If you like the font and want to use it for a header you should think about changing the letter-spacing.
+
+        Improving All-Caps Legibility
+            When using lowercase letters you will find that a baseline align will be the best as you are going to have some letters above and below the align. Upper Case is not the same as it will have far less height differences. They will also tend to have less letter-spacing as their lowercase brethren. For this you might want to add in an extra letter-spacing. 
+
+Chapter 5 Working with Color (137)

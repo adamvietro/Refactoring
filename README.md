@@ -20,3 +20,16 @@ Also if you are thinking that relative sizing is the way to go you might not hav
 Lastly thinking about the page as a whole you will need to have the right spacing to keep items separated. You should have a different spacing for the lines in a bullet point than the space between each bullet point. You should have the space between the title of a text box less than the space between each title and text box that you have on your page.  
   
 **Chapter 4: Designing Text**  
+This is the chapter about spacing and dealing with text. You should start to find more and more things to look at when it comes to text:  
+line-spacing  
+line-height  
+font-family  
+align-items  
+  
+These are just to name a few. You should also think about how you align and center items. You should always try and align the text in a way that is how the reader will naturally read the text. In most english speaking/reading countries you should align left. You should also try and limit the amount of characters on each line so that the reader will not have to move their eyes as much.  
+  
+One thing to keep in mind is that line spacing should be based off the size of the text itself. Many times with a larger text you will need less spacing and conversely for smaller text. Even letter-spacing can be changed. You might love a font but its meant to be used in smaller text and will naturally have a larger letter-spacing. You can use the font but change the letter-spacing of the text.  
+  
+This chapter is all about learning all the tools at your disposal in order to make the most of something as simple as the text on a page.  
+  
+**Chapter  5: Working with Color**

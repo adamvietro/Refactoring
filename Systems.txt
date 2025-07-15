@@ -29,6 +29,29 @@ Size
     768px
 
 Color
+	color: #000000;        class="text-black"
+	color: #ffffff;        class="text-white"
+	color: #1f2937;        class="text-gray-800"
+	color: #4b5563;        class="text-gray-600"
+	color: #6b7280;        class="text-gray-500"
+	color: #9ca3af;        class="text-gray-400"
+	color: #d1d5db;        class="text-gray-300"
+	color: #e5e7eb;        class="text-gray-200"
+	color: #f9fafb;        class="text-gray-100"
+
+	color: #3b82f6;        class="text-blue-500"
+	color: #2563eb;        class="text-blue-600"
+	color: #1d4ed8;        class="text-blue-700"
+
+	color: #10b981;        class="text-green-500"
+	color: #059669;        class="text-green-600"
+	color: #047857;        class="text-green-700"
+
+	color: #f59e0b;        class="text-yellow-500"
+	color: #d97706;        class="text-yellow-600"
+
+	color: #ef4444;        class="text-red-500"
+	color: #dc2626;        class="text-red-600"
 
 Font Weights
     font-weight: 100;   class="font-thin"
@@ -191,9 +214,6 @@ Line Height
 Controls readability and vertical rhythm in text.
 (We covered this already, but worth emphasizing.)
 
-Letter Spacing (Tracking)
-Slight tweaks improve typography, especially for headings or small text.
-
 Z-Index
 A scale helps avoid stacking conflicts and keeps layering intentional.
 
@@ -217,3 +237,84 @@ Useful for interactive elements (pointer, default, not-allowed).
 
 Box-Sizing
 Usually border-box, but good to confirm in your system.
+
+These might not stand out, but these will get you started with any new system.
+FONTS
+	font-family: -apple-system;        class="font-apple"
+	font-family: Segoe UI;             class="font-segoe"
+	font-family: Roboto;               class="font-roboto"
+	font-family: Noto Sans;            class="font-noto"
+	font-family: Ubuntu;               class="font-ubuntu"
+	font-family: Cantarell;            class="font-cantarell"
+	font-family: Helvetica Neue;       class="font-helvetica"
+
+.font-apple {
+  font-family: -apple-system;
+}
+
+.font-segoe {
+  font-family: "Segoe UI";
+}
+
+.font-roboto {
+  font-family: Roboto;
+}
+
+.font-noto {
+  font-family: "Noto Sans";
+}
+
+.font-ubuntu {
+  font-family: Ubuntu;
+}
+
+.font-cantarell {
+  font-family: Cantarell;
+}
+
+.font-helvetica {
+  font-family: "Helvetica Neue";
+}
+
+You can also define a system that will pull from a font list in order if they are available
+.font-system {
+  font-family: -apple-system, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+Then call it with
+<p class="font-system">This text uses the system font stack.</p>
+
+Align items
+	align-items: flex-start;   class="align-items-start"
+	align-items: flex-end;     class="align-items-end"
+	align-items: center;       class="align-items-center"
+	align-items: baseline;     class="align-items-baseline"
+	align-items: stretch;      class="align-items-stretch"
+
+	stretch	(Default) 	Items stretch to fill the container’s cross axis.
+	flex-start			Items align to the start of the cross axis.
+	flex-end			Items align to the end of the cross axis.
+	center				Items are centered along the cross axis.
+	baseline			Items align along their text baseline.
+
+This is the space between letters
+Letter Spacing
+	letter-spacing: -0.05em;   class="tracking-tighter"
+	letter-spacing: -0.025em;  class="tracking-tight"
+	letter-spacing: 0em;       class="tracking-normal"
+	letter-spacing: 0.025em;   class="tracking-wide"
+	letter-spacing: 0.05em;    class="tracking-wider"
+	letter-spacing: 0.1em;     class="tracking-widest"
+
+Flex Direction
+	flex-direction: row;             class="flex-row"
+	flex-direction: row-reverse;     class="flex-row-reverse"
+	flex-direction: column;          class="flex-col"
+	flex-direction: column-reverse;  class="flex-col-reverse"
+
+Justify Content
+	justify-content: flex-start;     class="justify-start"
+	justify-content: flex-end;       class="justify-end"
+	justify-content: center;         class="justify-center"
+	justify-content: space-between;  class="justify-between"
+	justify-content: space-around;   class="justify-around"
+	justify-content: space-evenly;   class="justify-evenly"
