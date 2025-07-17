@@ -318,3 +318,41 @@ Justify Content
 	justify-content: space-between;  class="justify-between"
 	justify-content: space-around;   class="justify-around"
 	justify-content: space-evenly;   class="justify-evenly"
+
+Here is the brightness formula for basic colors
+sqrt(0.299r^2 + 0.587g^2 + 0.114b^2)/255
+HSL Color Syntax: Hue/Saturation/Lightness
+Red (Hue: 0)
+
+	hsl(0, 100%, 50%)       class="bg-[hsl(0,100%,50%)]"
+	hsl(0, 70%, 50%)        class="bg-[hsl(0,70%,50%)]"
+	hsl(0, 100%, 70%)       class="bg-[hsl(0,100%,70%)]"
+	hsl(0, 100%, 30%)       class="bg-[hsl(0,100%,30%)]"
+
+🟢 Green (Hue: 120)
+
+	hsl(120, 100%, 50%)     class="bg-[hsl(120,100%,50%)]"
+	hsl(120, 60%, 50%)      class="bg-[hsl(120,60%,50%)]"
+	hsl(120, 100%, 70%)     class="bg-[hsl(120,100%,70%)]"
+	hsl(120, 100%, 25%)     class="bg-[hsl(120,100%,25%)]"
+
+🔵 Blue (Hue: 240)
+
+	hsl(240, 100%, 50%)     class="bg-[hsl(240,100%,50%)]"
+	hsl(240, 60%, 50%)      class="bg-[hsl(240,60%,50%)]"
+	hsl(240, 100%, 70%)     class="bg-[hsl(240,100%,70%)]"
+	hsl(240, 100%, 30%)     class="bg-[hsl(240,100%,30%)]"
+
+🟡 Yellow (Hue: 60)
+
+	hsl(60, 100%, 50%)      class="bg-[hsl(60,100%,50%)]"
+	hsl(60, 60%, 50%)       class="bg-[hsl(60,60%,50%)]"
+	hsl(60, 100%, 70%)      class="bg-[hsl(60,100%,70%)]"
+	hsl(60, 100%, 30%)      class="bg-[hsl(60,100%,30%)]"
+
+🟠 Orange (Hue: 30)
+
+	hsl(30, 100%, 50%)      class="bg-[hsl(30,100%,50%)]"
+	hsl(30, 60%, 50%)       class="bg-[hsl(30,60%,50%)]"
+	hsl(30, 100%, 70%)      class="bg-[hsl(30,100%,70%)]"
+	hsl(30, 100%, 30%)      class="bg-[hsl(30,100%,30%)]"

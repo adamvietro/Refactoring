@@ -299,3 +299,86 @@ Chapter 4 Designing Text (101)
             When using lowercase letters you will find that a baseline align will be the best as you are going to have some letters above and below the align. Upper Case is not the same as it will have far less height differences. They will also tend to have less letter-spacing as their lowercase brethren. For this you might want to add in an extra letter-spacing. 
 
 Chapter 5 Working with Color (137)
+    Ditch Hex for HSL
+        HSL stand for Hue, Saturation, and Lightness. This will help as once you set your color blue you can then just worry about lightness and saturation.
+
+        Hue is a colors position on the color wheel where 0 is red 120 is green and 240 is blue. 
+
+        Saturation is how colorful or vivid a color looks, 0% is grey and 100% is vibrant and intense.
+
+        Lightness is the amount of light that it will produce. thus the color will pop more. This is also a % percentage.
+
+        HSL vs HSB
+            Brightness is different than lightness, you will get different results with either. 0% brightness will always be black, but you can only get white with 100% brightness and 0% saturation.
+
+    You Need More Colors than you Think
+        Don't just use color generators they will lead to different hues for the page but they might not look great.
+
+        What you Actually Need
+            Greys
+                Text, Backgrounds, Panels, Form Controls. So in practice you should have 8-10 shades of grey.
+            Primary Colors
+                You might need 1 or 2 colors for the main look of the site, once you have those you should develop up to 8 variations of that color to choose from.
+            Accent Colors
+                Colors like yellow, pink or teal will grab the eye so you don't want them everywhere.
+                There will need to be some things that demphasize an option. RED
+                Or maybe yellow for a warning. YELLOW
+                Green to show a positive
+
+    Define Your Shades Up Front
+        As with everything try to have those colors upfront so you can work from there.
+        
+        Choose the Base Color First
+            Because you are determining the look of your site you want to build off the base color, this will set the tone of the page. 
+        
+        Find the Edges
+            Once you have the base you will want to find the darkest and the lightest that will work on your page. 
+
+        Fill in the Gaps
+            Once you have the edges and the middle try to fill in the 8 differences that will work for the page, that way you will have things to pull from to build what you are looking for.
+
+        What About Greys?
+            Same as with the others but this time you will build from a more standard lib of colors.
+
+        It's not a Science
+            Don't get caught up too much trying to build the perfect colors its okay to change them if they don't work but not having anything and trying to build it all on the fly will hurt. It's better to start with Grey get the site up then work with the colors you want and then build from there.
+        
+    Don't let Lightness Kill Your Saturation.
+        In the HSL color space, as a color gets closer to 0% or 100% lightness, the impact of saturation is weakened — the same saturation value at 50% lightness looks more colorful than it does at 90% lightness.
+
+        This means that it will get more washed out the closer you get to 100% or 0% lightness. So increase saturation as needed.
+
+        Use Perceived Brightness to your Advantage
+            Once you are at 100% lightness you can't go anywhere, but you can if you choose the right color or put it up against a less bright color.
+
+            There is a formula for how bright a color will look and its 
+            sqrt(0.299r^2 + 0.587g^2 + 0.114b^2)/255
+
+            What is nice about looking at the graph is that you will find local min/max as well as overall min/max so you can use closer values together if you want or go from 3 local focal points in your page. So if you want to use yellow as a bright spot you can go to red/orange or blue/purple for the less bright color.
+
+        Changing Brightness by Rotating Hue
+            So there is the option of changing the Hue to a more bright color. This will keep the intensity and the color you are looking for without washout.
+
+    Greys Don't Have to be Grey
+        Grey are supposed to have 0% saturation but if you add some in you will get more out of the color you choose.
+
+        Color Temperature
+            So you can get a "pure" grey with no hue and 0% Saturation but if you want you can keep the saturation very low and then add in some color, so long as the Saturation is very low it will feel Grey and be able to stand out.
+
+            Blue will add some "Coolness" and yellow/orange will add some "warmth"
+
+    Accessible Doesn't Have to Mean Ugly
+        To make sure your designs are accessible, the Web Content Accessibility Guidelines (WCAG) recommend that normal text (under ~18px) has a contrast ratio of at least 4.5:1, and that larger text has a contrast ratio of at least 3:1.
+
+        So this is the contrast of the background to the text, in order to achieve the required contrast you might need to make the text or background too light or dark. This might washout the page and make it too dark or light sometimes you can just swap the text and background in order to achieve the same results and still maintain the text fidelity.
+
+        Rotating the Hue
+            Same it above but now working with colored text and colored background instead of adjusting the saturation of lightness you can rotate the Hue.
+
+    Don't Rely on Color Alone
+        You might want to add in some icons for colorblind people the same red/green colors will look like grey/grey to a colorblind person so adding in an up arrow or down arrow can be very helpful.
+
+        What is nice is that it seems that as long as you can see a color you can see the differences between hues that are closely related so you can achieve the same things but with everyone being able to see the differences.
+
+Chapter 6 Creating Depth (171)
+    

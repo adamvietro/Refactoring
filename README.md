@@ -32,4 +32,11 @@ One thing to keep in mind is that line spacing should be based off the size of t
   
 This chapter is all about learning all the tools at your disposal in order to make the most of something as simple as the text on a page.  
   
-**Chapter  5: Working with Color**
+**Chapter  5: Working with Color**  
+This was a great chapter and its mostly follows around the HSL color system. In short this is about Hue (color), Saturation(Grey to full color), and Lightness (how light a color is). Now brightness is a different thing from Lightness. With this scale it will be easier to keep the same color and change things about the color to get a different set of blues to work with.  
+  
+What is also nice is that you can also use the absolute brightness of colors to slide a hue closer to a brighter color on the wheel to get more pop from a color that is already maxed out on Lightness.  
+  
+As for the system in this chapter you should build all the colors you want before you build the site. That way you can work with them as you build. Same things as before you want to have up to 8 of each of the main colors. Lastly you should always think about color blind people as they can still see differences in lightness and can see differences in slight changes in Hue.  
+  
+**Chapter 6: Creating Depth**
