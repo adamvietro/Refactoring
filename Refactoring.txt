@@ -381,4 +381,78 @@ Chapter 5 Working with Color (137)
         What is nice is that it seems that as long as you can see a color you can see the differences between hues that are closely related so you can achieve the same things but with everyone being able to see the differences.
 
 Chapter 6 Creating Depth (171)
+    Emulate a Light Source
+        How does a site make it look like an element is raised off the page.
     
+        Light Comes From Above
+            Light comes from above so things that are on the top of an item will have more light than things on the bottom of an element.
+
+            The opposite goes for thins that are inset. Things on the bottom are going to have more light than the thins on the top of the element.
+
+        Simulating Light in a User Interface
+            First figure out a profile that you want the elements to have, then mimic the lights sources.
+
+            Raised Elements
+                For this we want the top to look lighter than the bottom. To do this we can add in a box-shadow of 1 px and then set the color to lighter than the button itself.
+                box-shadow: inset 0 1px 0 hsl(224, 84%, 74%)
+
+                Then you can add in some blending and box-shadow to the bottom of the element and make it darker than the rest of the button. Shadows should have pretty defined edges so don't get carried away with the blur.
+                box-shadow: 0 1px 3px hsla(0, 0%, 0%, .2)
+
+            Inset Elements
+                So for the bottom you want more light and the top you want less. 
+                box-shadow: 0 -2 0 hsla(0, 0%, 100%, .15)
+
+                For the top you want to have less light.
+                box-shadow: inset 0 2px 2px hsla(0, 0%, 0%, 0.1)
+
+        Don't get carried away.
+            Don't worry about photo realism it's not trying to mimic real life its trying to make it look nice and then move on.
+    
+        Use Shadows to Convey Elevation
+            This is about trying to make an item look like its coming off the page, not simply raised, in an item the is off the page it will look more focused and not have any shadow on the top of it, it will also cast a shadow on the things below it. 
+
+            Drop downs might be the perfect thing for this. As you want it to feel like it just came on top of the elements that are currently on the page.
+
+        Establishing an Elevation System
+            Just like with the other systems you want to set some values that you want and build from there. Smallest and largest are great starting points.
+            box-shadow: 0 1px 3px hsla(0, 0%, .2);
+            box-shadow: 0 4px 6px hsla(0, 0%, .2);
+            box-shadow: 0 5px 15px hsla(0, 0%, .2);
+            box-shadow: 0 10px 24px hsla(0, 0%, .2);
+            box-shadow: 0 15px 35px hsla(0, 0%, .2);
+
+        Combining Shadow with Interaction
+            You might want to make a hover or a click make and item come off the page. This can be down with hover. Or on click. You can even remove the shadow thus making it feel like you pressed the button.
+
+    Shadows can Have two Parts
+        Sometimes you can use 2 shadows to make it look like you have direct light and ambient light. This is taking the idea that a real world item will usually have more than 1 light source and the more dominate light will cast a more defined shadow.
+            box-shadow: 0 4px 6px hsla(0, 0%, .7), 0 5px 15px hsla(0, 0%, .1)
+
+        The further away from a surface the less the ambient light will have an effect on the dull shadow as more of the ambient light shadow is lost as you are taking away more and more light. 
+
+    Even Flat Designs can Have Depth
+        Most people think that flat designs have no depth but you can still create depth with the colors you use.
+
+        Creating Depth with Color
+            Lighter colors will feel like they are raised above a color with less light.
+
+        Using Solid Shadows
+            An other way is to use solid shadows with no blur this will create the same effect but it will feel like its not a real world object.
+            box-shadow: 0 3px 0 hsl(220, 7%, 83%);
+
+    Overlap Items to Create Layers
+        margin-bottom: -60px
+        This way you will have the ability to make an item be on top of an other and create depth for your user.
+
+        margin: -60px 0 -60px 0;
+        You can also make an item taller and wider than the parent.
+
+        margin-left: -24px 
+        margin-right: -24px
+        You can even overlap to the right and left and make buttons feel like they are going to move the actual image.
+
+        You should also think about how an image might clash with the image below and thus you might want to add in a border.
+        border: 4px solid #FFFFFF;
+
+Chapter 7 Working with Images (199)

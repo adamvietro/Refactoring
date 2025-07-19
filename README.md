@@ -40,3 +40,10 @@ What is also nice is that you can also use the absolute brightness of colors to 
 As for the system in this chapter you should build all the colors you want before you build the site. That way you can work with them as you build. Same things as before you want to have up to 8 of each of the main colors. Lastly you should always think about color blind people as they can still see differences in lightness and can see differences in slight changes in Hue.  
   
 **Chapter 6: Creating Depth**
+This is the chapter that focuses on creating depth in your page. If you look at a real world item (raised) it will have more light on the top and less light on the bottom. The converse is true for inset items. This is a way to create some depth for an item on your page.  
+  
+Also think about an item that is completely off the page. It will create a larger and larger shadow as you raise it more off the page. So increase the size of the shadow as you pull it further and further from the page.  
+  
+YOu can also create some depth with the colors you choose, see the absolute brightness scale. OR even how you overlap items on your page. Overlaying items will make sure that an user knows that an item is over an other. Lastly you should think about making items dynamic by making a hover or a click raise or inset an item.  
+  
+**Chapter 7: Working with Images**
