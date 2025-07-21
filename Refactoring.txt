@@ -456,3 +456,60 @@ Chapter 6 Creating Depth (171)
         border: 4px solid #FFFFFF;
 
 Chapter 7 Working with Images (199)
+    Use Good Photos
+        1. Higher a Professional Photographer
+        2. Use High Quality stock Photos
+
+    Text Needs Consistent Contrast
+        One of the hardest things is taking a stock photo and trying to add text of the the top of it. There might be different brightness and colors that make a specific color blend in too much or make it harder to see the image below.
+
+        The Problems with Background Images
+            As said above you need to balance the colors of the text and image.
+
+        Add an Overlay
+            You might be able to simply add and overlay to the image like:
+                background-color: hsla(0, 0%, .55)
+
+        Lower the Image Contrast
+            You could make the image lighter and contrast lower while also making the text darker.
+                Brightness: +40%
+                Contrast: -70%
+
+        Colorize the Image  
+            1. Lower the image contrast
+            2. De-saturate the image
+            3. Add a solid fill
+                color: #035581
+                Blending mode: Multiply
+
+        Add a Text Shadow
+            You might be able to add a very large blur radius and no offset to make the text stand out more.
+                text-shadow: 0 0 50px hsla(0, 0%, 0%, .4)
+
+    Everything has an Intended Size
+        Things can look pixilated if you oversize or even undersize and image.
+
+        Don't upscale Icons
+            If you really don't have access to the proper sized image you should try to encase the icon in a larger circle or button so that the overall image is the right size.
+
+        Don't Scale down Screenshots
+            Use lots of space to show the image you don't want to share an image that is not at the right scale as you will make people think that it isn't as professional.
+
+            The other option is to only show the specific area you are trying to show, so take the full size image and then crop to the area you want to showcase.
+
+        Don't Scale Down Icons Either
+            You still lose fidelity when you scale down as well its is not a one-to-one. If you want an image to scale down you might want to make the image most drastic and then scale down you will lose the little things while scaling down.
+    
+    Beware User-Uploaded Content
+        You will never be able to control all the images that a user will upload, but there are things that you can do to make them look better.
+
+        Control the Shape and Size
+            Users might use portrait or landscape, they might crop the image or have 100's of different pixel sizes. To do this center the images inside a set size of frame and then setting the background-size to cover.
+                background-size: cover;
+
+        Prevent Background Bleed
+            You could add in a box to surround and image but a subtle inner box shadow might be better.
+                border: 2px solid hsl(212, 12%, 72%)
+                box-shadow: inset 0 0 0 hsla(0, 0%, 0%, .1);
+
+Chapter 8 Finishing Touches (219)

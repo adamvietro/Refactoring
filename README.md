@@ -47,3 +47,13 @@ Also think about an item that is completely off the page. It will create a large
 YOu can also create some depth with the colors you choose, see the absolute brightness scale. OR even how you overlap items on your page. Overlaying items will make sure that an user knows that an item is over an other. Lastly you should think about making items dynamic by making a hover or a click raise or inset an item.  
   
 **Chapter 7: Working with Images**
+This was a quick chapter as there is a lot that we already know about dealing with contrast and lightness. One thing to keep in mind is that you want text over an image to have consistent contrast. To achieve this you have a few things that you can do.  
+  
+One is to increase the brightness and decrease teh contrast, while also making the text darker.  
+And other is to colorize the image with the background-color and multiplication. Thus make the image appear darker or bluer and thus any text color on top will not blend is as much.  
+  
+An other thing that the book talks about is sizing images and icons properly, you really should try and get the right icon or image for the size of the image you want. Upscaling or downscaling will result in loss of fidelity. You loss the small things when you down-scale and lose pixel count when you upscale.  
+  
+Lastly you should think about what to do with user uploaded images. You should always make them the same size and center them withing the background to avoid them wrecking havoc on your page.  
+  
+**Chapter 8: Finishing Touches**
