@@ -56,4 +56,10 @@ An other thing that the book talks about is sizing images and icons properly, yo
   
 Lastly you should think about what to do with user uploaded images. You should always make them the same size and center them withing the background to avoid them wrecking havoc on your page.  
   
-**Chapter 8: Finishing Touches**
+**Chapter 8: Finishing Touches**  
+Now that you have all these tools try to put them to good use. Add a simple border, make a drop-down look as good as the main page, add in more icons. These are things that you can add to a page to make it pop.  
+  
+**Chapter 9: Leveling Up**  
+Lastly you should look at other pages and make notes of things that you loved.  
+  
+Once you have done that try and recreate the page with your own code.

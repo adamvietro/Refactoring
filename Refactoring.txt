@@ -513,3 +513,53 @@ Chapter 7 Working with Images (199)
                 box-shadow: inset 0 0 0 hsla(0, 0%, 0%, .1);
 
 Chapter 8 Finishing Touches (219)
+    Supercharge the Defaults
+        Try to replace simple things with icons
+        You can find the things that will make a feature more secure or make a user see the thing you want them to see.
+        Promote what you want to see more than the things that don't matter as much.
+        Links can be made to stand out more with shading or a different color.
+        Custom checkboxes and radio buttons can help to make it stand out more,
+
+    Add Color with Accent Borders
+        Add a dash of flair with border color you don't need it to be a complete border think about just a small bit at the top or bottom. You can also just add a small border to the link of the page you are on.
+
+        You can even add a border across the entire page at the top.
+    
+    Decorate your Backgrounds
+        Even the best areas can be made better by adding in some background color
+
+        Change the Background Color
+            Use it to emphasize an item or make an other item deemphasized
+
+        Use a Repeated Pattern
+            This will help a user be able to use your page with ease and they will know what to do to find the thing that they are looking for.
+
+        Add a Simple Shape or Illustration
+            Small bits of shapes or lines will help to make the page feel less open and draw the eye to a place you want or keep the eye away from other places.
+
+    Don't Overlook Empty States
+        Remember that a user might not see every cool thing that you are developing. You should make an empty page just as awesome as a full page.
+
+        There might be a reason to make the page not show everything that a user hasn't even done yet. IF you are offering a way to create discount codes maybe hide the scheduled or expired if no code have been created.
+
+    Use Fewer Borders
+        Only use them when it makes sense to do so.
+
+        Use a Box Shadow
+            IT will help to separate items but it really helps when trying to show what a user is currently on.
+
+        Use Two Different Background Colors
+            Its nice to have different background-color as it will help to show that you have different areas to look at. In this case the background might be white but the background for a text field might have a grey background.
+
+    Add Extra Spacing
+        margin-bottom and margin-top is a good use of space to make it so that you can show the differences while not always going to a border.
+
+    Think Outside the Box
+        Even a dropdown can be well made and look like a normal page. Even tables can have some flair, this isn't always the case with just pure info, but something like a few lines and columns can be made to have multiple lines and some flair.
+
+Chapter 9 Leveling Up (249)
+    Look For Decisions you Wouldn't have Made
+        Try to look at pages with an eye for how it would have been built.
+
+    Rebuild your Favorite Interfaces
+        Once you do that you can then try to build something that you loved when you first saw it.
